@@ -21,12 +21,22 @@ public class Operaciones {
         return (val1 * val2);
     }
     
-    
+/**
+ * Este metodo servira para hacer divisiones 
+ * mediante dos valores
+ * @param val1 este es el valor 1 
+ * @param val2 este es el valor 2
+ * @return devuelve la division de val1 y val2
+ */
     public double dividir (double val1, double val2) {
         if (val2 != 0) 
             return (val1 / val2);
         else
             return (-1);
+    }
+     
+    public double sumar (double val1, double val2) {
+        return (val1 + val2);
     }
     
 }
